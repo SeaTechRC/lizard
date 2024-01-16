@@ -30,10 +30,10 @@
 
 #define BNO055_DEBUG_OFF // uncomment this to DISABLE DEBUG LOGS
 
-#include "driver/i2c.h"
-#include "driver/uart.h"
 #include "freertos/FreeRTOS.h"
 #include "freertos/task.h"
+#include "rom/i2c.h"
+#include "rom/uart.h"
 #include <cstring> //memset, memcpy
 #include <exception>
 #include <string>

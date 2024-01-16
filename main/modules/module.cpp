@@ -26,6 +26,7 @@
 #include "serial.h"
 #include "stepper_motor.h"
 #include <stdarg.h>
+#include <stdexcept>
 
 Module::Module(const ModuleType type, const std::string name) : type(type), name(name) {
 }

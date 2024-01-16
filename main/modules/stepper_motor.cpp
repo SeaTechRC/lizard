@@ -1,11 +1,14 @@
 #include "stepper_motor.h"
 #include "../utils/timing.h"
 #include "../utils/uart.h"
+#include "rom/gpio.h"
+#include "soc/gpio_sig_map.h"
 #include <algorithm>
 #include <driver/ledc.h>
 #include <driver/pcnt.h>
 #include <math.h>
 #include <memory>
+#include <stdexcept>
 
 #define MIN_SPEED 490
 

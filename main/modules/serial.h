@@ -1,8 +1,8 @@
 #pragma once
 
-#include "driver/gpio.h"
-#include "driver/uart.h"
 #include "module.h"
+#include "rom/gpio.h"
+#include "rom/uart.h"
 #include <memory>
 #include <string>
 

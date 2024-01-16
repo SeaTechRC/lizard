@@ -9,6 +9,7 @@ file(GLOB SRC_FILES
 idf_component_register(
     SRCS ${SRC_FILES}
     INCLUDE_DIRS "." "compilation" "modules" "utils"
+    REQUIRES "esp_timer" "app_update"
 )
 
 component_compile_options(-std=gnu++17 -Wsuggest-override)
