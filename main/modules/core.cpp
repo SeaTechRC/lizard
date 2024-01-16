@@ -6,6 +6,7 @@
 #include "../utils/uart.h"
 #include "esp_ota_ops.h"
 #include <memory>
+#include <stdexcept>
 #include <stdlib.h>
 
 Core::Core(const std::string name) : Module(core, name) {

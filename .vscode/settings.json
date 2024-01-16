@@ -12,7 +12,8 @@
   "[python]": {
     "editor.defaultFormatter": "ms-python.python",
     "editor.codeActionsOnSave": {
-      "source.organizeImports": true
+      "source.organizeImports": "explicit"
     }
-  }
+  },
+  "idf.adapterTargetName": "esp32"
 }
