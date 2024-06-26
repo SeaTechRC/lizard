@@ -15,7 +15,7 @@ void echo(const char *format, ...) {
 
     pos += std::sprintf(&buffer[pos], "\n");
 
-    // Properly handle buffer overflows
+    // TODO: Properly handle buffer overflows
     make_check_line(buffer, pos);
     print(buffer);
 }
